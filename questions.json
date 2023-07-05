@@ -1,0 +1,25 @@
+[ 
+    {
+        "question": "Inside", 
+        "choice1": "el1.correcta", 
+        "choice2": "el2",
+        "choice3": "el3",
+        "choice4": "el4",
+        "answer": 1
+    },
+    {   "question": "La pregunta 2",
+        "choice1": "el1de2",
+        "choice2": "el2de2",
+        "choice3": "el3de2.correcta",
+        "choice4": "el4de2",
+        "answer": 3
+    },
+    {   
+        "question": "La pregunta 3",
+        "choice1": "el1de3",
+        "choice2": "el2de3",
+        "choice3": "el3de3",
+        "choice4": "el4de3.correcta",
+        "answer": 4
+    }
+]
