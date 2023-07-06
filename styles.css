@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 :root {
-    background-color: ;
+    background: linear-gradient(#3b1d65,#210d26);
     font-size: 62.5%;
 }
 
 * {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #ececec;
 }
 
 h1,
@@ -20,7 +22,7 @@ h4 {
 
 h1 {
     font-size: 5.4rem;
-    color: #56a5eb;
+    color: #ececec;
     margin-bottom: 5rem;
 }
 
@@ -86,16 +88,16 @@ h3 {
     padding: 1rem 0;
     width: 20rem;
     text-align: center;
-    border: 0.1rem solid #56a5eb;
+    border: 0.1rem solid #ececec;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: #56a5eb;
-    background-color: white;
+    color: #ececec;
+    background-color: #4b33a8;
 }
 
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 0 rgba(86, 185, 235, 0.5);
+    box-shadow: 0 0.4rem 0 rgb(248, 242, 242);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
 }
@@ -121,12 +123,13 @@ input{
     padding: 1.5rem;
     font-size: 1.8rem;
     border: none;
-    box-shadow: 0 0.1rem 1.4rem rgba(86, 185, 235, 0.5);
+    background-color: #210d26;
+    box-shadow: 0 0.1rem 1.4rem rgb(248, 242, 242);
 }
 
 
 input::placeholder {
-    color: #aaa;
+    color: #ececec;
 }
 
 
